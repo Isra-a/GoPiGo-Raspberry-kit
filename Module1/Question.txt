@@ -1,12 +1,1 @@
-1. Autonomously move the robot along the perimeter of a square path of dimension 0.5 m x 0.5 m.
-If the robot senses an obstacle within 25cm on its way then it must stop, rotate by 180 degrees and 
-trace the path along the other direction. Store the path trace into a file. 
-  
-Expected output: Create a folder named Module 3. The path trace should be saved into a file named as  
-problem1_pathtrace.csv. The path trace should include 3 columns in each row: index or row number,
-wheel encoder value, distance value from distance sensor. The path trace must be collected at 
-at-the-least 2 samples/second.
-
-
-Bonus (2pts): The entire episode must be streamed using the remote camera option.
-(Hint: https://github.com/DexterInd/GoPiGo3/tree/master/Projects/RemoteCameraRobot)
+The robot must be controlled by the user’s keyboard. The distance values (to the nearest obstacle sensed by the distance sensor) must be displayed on the console ONLY when the robot is MOVING but NOT WHEN STOPPED
