@@ -1,0 +1,23 @@
+1. Autonomously move the robot along the perimeter of a square path of 
+dimension 0.5 m x 0.5 m. If the robot senses an obstacle within 25cm on its 
+way then it must stop, rotate by 180 degrees and trace the path along the 
+other direction. Store the path trace into a file. 
+  
+Expected output: Create a folder named Module 3. The path trace should be 
+saved into a file named as  problem1_pathtrace.csv. The path trace should 
+include 3 columns in each row: index or row number, wheel encoder value, 
+distance value from distance sensor. The path trace must be collected at 
+at-the-least 2 samples/second.
+
+2.  Autonomously move the robot forward along the four cardinal directions. 
+The path will be: turn towards North-->move 50cm--> turn towards East>move 
+50cm→ turn towards South→ move 50cm-->turn towards West-->move 50cm-->turn 
+towards North and REPEAT. If it detects an obstacle within 25cm along the 
+path it MUST AVOID THE OBSTACLE and MOVE IN ANY OTHER DIRECTION SO AS TO NOT
+ HIT THE OBSTACLE. Store the path trace into a file.		
+
+Expected output: Save the path trace as problem2_pathtrace.csv in the 
+Module 3 folder. The path trace should include 4 columns in each row: 
+index or row number, wheel encoder value, distance value from distance 
+sensor, tracing path direction. The path trace must be collected at 
+at-the-least 2 samples/second.
