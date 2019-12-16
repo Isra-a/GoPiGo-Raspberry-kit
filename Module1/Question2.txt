@@ -1,0 +1,3 @@
+The robot must be controlled by the user’s keyboard. The distance values (to the nearest obstacle sensed by the distance sensor) must be displayed on the console ONLY when the robot is MOVING but NOT WHEN STOPPED
+AND
+The robot must capture a picture every time the robot senses an obstacle within 500mm. The photos must be named as module2_problem2_1, module2_problem2_2, module2_problem2_3, and so on..
